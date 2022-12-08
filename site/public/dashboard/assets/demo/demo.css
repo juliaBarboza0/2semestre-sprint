@@ -1,0 +1,218 @@
+.tim-row {
+  margin-bottom: 20px;
+}
+
+.tim-white-buttons {
+  background-color: #777777;
+}
+
+.typography-line {
+  padding-left: 25%;
+  margin-bottom: 35px;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.typography-line span {
+  bottom: 10px;
+  color: #c0c1c2;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  left: 0;
+  position: absolute;
+  width: 260px;
+  text-transform: none;
+}
+
+.tim-row {
+  padding-top: 60px;
+}
+
+.tim-row h3 {
+  margin-top: 0;
+}
+
+.offline-doc .page-header {
+  display: flex;
+  align-items: center;
+}
+
+.offline-doc .footer {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  bottom: 0;
+  color: #fff;
+  z-index: 1;
+}
+
+@media all and (min-width: 992px) {
+  .sidebar .nav>li.active-pro {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+  }
+}
+
+.card.card-upgrade .card-category {
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+.subir_div {
+  margin-bottom: 300%;
+}
+
+
+/* daqui em diande não faz mais parte do bootstrap */
+
+.invisivel {
+  color: transparent;
+}
+
+.btn_grafico {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.btn_grafico:hover {
+  color: #eeae07;
+}
+
+.tab_dados {
+  font-size: 18px;
+  align-items: center;
+}
+
+.espaco_caixa_tab {
+  margin-left: 8%;
+}
+
+.btn_agencia {
+  color: #000;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.btn_agencia:hover {
+  transition: 0.3s;
+  background-color: #b7b7b7;
+  color: #fff;
+}
+
+.btn_agencia_endereco {
+  text-align: start;
+  color: #605f5f;
+  font-weight: 700;
+
+}
+
+  .perfil_font{
+    font-size: 25px;
+    color: #ffffff;
+  }
+
+  .cor_grafico{
+    background-color: #fff;
+  }
+
+  .cor_perfil{
+    background-color: #000000b6;
+  }
+
+  .h2_ag{
+    color: #000;
+  }
+
+  .cor_preta{
+    color: #000;
+  }
+
+  .btn_caixa {
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+
+  .overflowX_login_cadastro{
+    overflow-y: hidden;
+  }
+
+  .margin_bottom{
+    margin-bottom: 2rem;
+  }
+
+.td_center{
+  text-align: center;
+}
+
+.normal{
+  background-color: #4dff00;
+  
+}
+
+.moderado{
+  background-color: #fff200;
+}
+
+.perigo{
+  background-color: #ff0000;
+}
+
+
+
+.card_btn_agencia_normal{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 10px solid #4dff00;
+  border-radius: 0.240rem;
+}
+
+.card_btn_agencia_normal:hover{
+  transition: 0.3s;
+  border: 10px solid #b7b7b7;
+
+}
+
+.card_btn_agencia_moderado{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 10px solid #fff200;
+  border-radius: 0.240rem;
+}
+
+.card_btn_agencia_moderado:hover{
+  transition: 0.3s;
+  border: 10px solid #b7b7b7;
+
+}
+
+.card_btn_agencia_perigo{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 10px solid #ff0000;
+  border-radius: 0.240rem;
+}
+
+.card_btn_agencia_perigo:hover{
+  transition: 0.3s;
+  border: 10px solid #b7b7b7;
+
+}

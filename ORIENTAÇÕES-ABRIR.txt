@@ -1,0 +1,7 @@
+*O PPT da apresentação está em documentação em formato de MP4*
+
+*AS dash estão na pasta site->Public->View->dashboard 
+e cada um tem sue nome *
+
+Já o kotlin tulizado pela Julia Barboza está na pasta executáveis->JarConsole->Projeto02 tenho uma classe 
+chamada Processos.kt

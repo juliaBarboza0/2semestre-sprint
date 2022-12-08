@@ -1,0 +1,221 @@
+<!--
+
+=========================================================
+* Argon Dashboard - v1.1.2
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-dashboard
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>
+    Track Vision
+  </title>
+  <!-- Favicon -->
+  <link href="../assets/img/icons/logo_icon.ico" rel="icon" type="image/png">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <!-- Icons -->
+  <link href="../assets/js/plugins/nucleo/css/nucleo.css" rel="stylesheet" />
+  <link href="../assets/js/plugins/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="../assets/css/argon-dashboard.css?v=1.1.2" rel="stylesheet" />
+</head>
+
+<body class="">
+  <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
+    <div class="container-fluid">
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sidenav-collapse-main"
+        aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Brand -->
+      <a class="navbar-brand pt-0" href="../dashboard.html">
+        <img src="../assets/img/brand/track_black.png" class="navbar-brand-img" alt="...">
+      </a>
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="sidenav-collapse-main">
+        <!-- Collapse header -->
+        <div class="navbar-collapse-header d-md-none">
+          <div class="row">
+            <div class="col-6 collapse-brand">
+              <a href="../dashboard.html">
+                <img src="../assets/img/brand/blue.png">
+              </a>
+            </div>
+            <div class="col-6 collapse-close">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#sidenav-collapse-main"
+                aria-controls="sidenav-main" aria-expanded="false" aria-label="Toggle sidenav">
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <ul class="navbar-nav">
+          <li class="nav-item   ">
+            <a class="nav-link   " href="../dashboard.html">
+              <i class="ni ni-tv-2 text-primary"></i> Gráficos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="./tables.html">
+              <i class="ni ni-bullet-list-67 text-red"></i> Tabelas
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link active " href="./profile.html">
+              <i class="ni ni-single-02 text-yellow"></i> Perfil
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="../mapeamento.html">
+              <i class="ni ni-map-big text-green"></i> Mapeamento
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://app.pipefy.com/public/form/kI792hGj" target="_blank">
+              <i class="ni ni-key-25 text-info"></i> Suporte
+            </a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="./register.html">
+              <i class="ni ni-circle-08 text-pink"></i> Register
+            </a>
+          </li> -->
+        </ul>
+        <!-- Divider -->
+        <hr class="my-3">
+      </div>
+    </div>
+  </nav>
+  <div class="main-content">
+    <!-- End Navbar -->
+    <!-- Header -->
+    <div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center">
+      <!-- Mask -->
+      <span class="mask bg-gradient-default opacity-8"></span>
+    </div>
+    <!-- Page content -->
+    <div class="container-fluid mt--7">
+
+
+      <div class="div_perfil order-xl-1">
+        <div class="card bg-secondary shadow">
+          <div class="card-header bg-white border-0">
+            <div class="row align-items-center">
+              <div class="col-8">
+                <h3 class="mb-0" style="color:#000 ;">Minha conta</h3>
+              </div>
+              <div class="col-4 text-right">
+                <a href="#" class="btn btn-sm" id="editar_perfil" onclick="editar_input()">Editar</a>
+                <a href="./profile.html" class="btn btn-sm" id="cancelar_perfil" style="display: none;">Cancelar</a>
+                <a href="#" class="btn btn-sm" id="salvar_perfil" onclick="salvar_input()"
+                  style="display: none;">Salvar</a>
+              </div>
+
+            </div>
+          </div>
+          <div class="card-body">
+            <form>
+              <h6 class="heading-small text-muted mb-4">Informações do Usuário</h6>
+              <div class="pl-lg-4">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label class="form-control-label" for="input-username">Nome</label>
+                      <input type="text" id="inputUsername" class="form-control form-control-alternative"
+                        placeholder="Username" value="Fernando.Brandão" disabled>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label class="form-control-label" for="input-email">Endereço de e-mail</label>
+                      <input type="email" id="inputEmail" class="form-control form-control-alternative"
+                        placeholder="email" value="fernando.brandao@sptech.school" disabled>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label class="form-control-label" for="input-first-name">Primeiro nome</label>
+                      <input type="text" id="inputFirstName" class="form-control form-control-alternative"
+                        placeholder="First name" value="Fernando" disabled>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <label class="form-control-label" for="input-last-name">Último nome</label>
+                      <input type="text" id="inputLastName" class="form-control form-control-alternative"
+                        placeholder="Last name" value="Brandão" disabled>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr class="my-4" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--   Core   -->
+  <script src="../assets/js/plugins/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <!--   Optional JS   -->
+  <!--   Argon JS   -->
+  <script src="../assets/js/argon-dashboard.min.js?v=1.1.2"></script>
+  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+  <script>
+    window.TrackJS &&
+      TrackJS.install({
+        token: "ee6fab19c5a04ac1a32a645abde4613a",
+        application: "argon-dashboard-free"
+      });
+  </script>
+</body>
+
+</html>
+
+<script>
+  function editar_input() {
+    inputUsername.disabled = false
+    inputEmail.disabled = false
+    inputFirstName.disabled = false
+    inputLastName.disabled = false
+
+    editar_perfil.style.display = "none";
+    cancelar_perfil.style.display = "inline";
+    salvar_perfil.style.display = "inline";
+  }
+
+  function salvar_input() {
+    inputUsername.disabled = true
+    inputEmail.disabled = true
+    inputFirstName.disabled = true
+    inputLastName.disabled = true
+
+    editar_perfil.style.display = "inline";
+    cancelar_perfil.style.display = "none";
+    salvar_perfil.style.display = "none";
+  }
+</script>
